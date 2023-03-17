@@ -22,6 +22,7 @@ marathiHandler(event){
 }
 englishHandler(event){
   this.setState({isSelected: false}); 
+console.log('Test Data')
 }
 componentDidMount(){
   const url = 'http://192.168.1.9:80/BusinessCard/ws_post_card.php?getloginid=10D86474-1D1B-47CB-8EAF-E806BD187824';
